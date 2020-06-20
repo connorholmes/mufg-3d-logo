@@ -24,7 +24,7 @@ var canvas = document.getElementById("renderCanvas"); // Get the canvas element
 
             // Adding Logo to scene
             BABYLON.SceneLoader.Append("./", "mlogo.obj", scene, function(meshes) {
-
+               
             });
             var light = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(1, 10, 1), scene);
             return scene;
